@@ -1,5 +1,10 @@
 # k8sInkind
 Try k8s via kind in ntcu class 
+You can visit these link to know more details.
+1. kind website https://kind.sigs.k8s.io/
+2. k8s website https://kubernetes.io/docs/home/
+3. k8s API Reference https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.22/
+
 ## Create kind cluster
 ```
 kind create cluster --config cluster.yaml
