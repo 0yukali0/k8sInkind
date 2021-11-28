@@ -5,7 +5,9 @@ Try k8s via kind in ntcu class
 kind create cluster --config cluster.yaml
 ```
 ## Apply a yaml
+```
 kubectl apply -f ${Your yaml file}
+```
 
 ## List resouces in k8s
 ```
