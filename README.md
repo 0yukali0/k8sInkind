@@ -3,6 +3,7 @@ Try k8s via kind in ntcu class and you can visit these link to know more details
 1. kind website https://kind.sigs.k8s.io/
 2. k8s website https://kubernetes.io/docs/home/
 3. k8s API Reference https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.22/
+4. metallb website https://metallb.universe.tf/
 
 ## Create kind cluster
 ```
