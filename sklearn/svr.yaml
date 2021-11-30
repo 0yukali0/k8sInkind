@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: svr-pd
+spec:
+  restartPolicy: Never
+  nodeSelector:
+    sklearn: svr 
+  containers:
+  - image: 0yukali0/svr:test
+    name: svr
+    imagePullPolicy: Always
